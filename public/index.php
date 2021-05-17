@@ -31,7 +31,7 @@ $data = [
     ]
 ];
 
-$articleId =  $_GET['articleId'] ??  null;
+$articleId =  $_GET['articleId'] ?? null;
 
 if ($articleId === null || false === isset($data[$articleId])) {
     http_response_code(404);
