@@ -1,32 +1,32 @@
 <?php
-
+header('Access-Control-Allow-Origin: *');
 $data = [
     1 => [
         'articleId' => "0001",
-        'name' => 'Pantalla Acer',
-        'image' => '/img/pantalla.png',
-        'price' => 150,
+        'name' => 'Macbook Pro',
+        'image' => 'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196_960_720.jpg',
+        'price' => 1500,
         'description' => ''
     ],
     2 => [
         'articleId' => "0002",
-        'name' => 'Pantalla Samsung',
-        'image' => '/img/pantallaSamsung.png',
-        'price' => 300,
+        'name' => 'Smartphone',
+        'image' => 'https://cdn.pixabay.com/photo/2014/08/05/10/30/iphone-410324_960_720.jpg',
+        'price' => 500,
         'description' => ''
     ],
     3 => [
         'articleId' => "0003",
-        'name' => 'SSD SP',
-        'image' => '/img/ssd.png',
-        'price' => 100,
+        'name' => 'Set perifericos',
+        'image' => 'https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_960_720.jpg',
+        'price' => 350,
         'description' => ''
     ],
     4 => [
         'articleId' => "0004",
-        'name' => 'SSD SanDisk 1Tb',
-        'image' => '/img/ssd1tb.png',
-        'price' => 130,
+        'name' => 'iMac 24"',
+        'image' => 'https://cdn.pixabay.com/photo/2015/01/21/14/14/apple-606761_960_720.jpg',
+        'price' => 1350,
         'description' => ''
     ]
 ];
